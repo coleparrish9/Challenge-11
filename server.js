@@ -74,7 +74,7 @@ app.get('/api/notes', (req, res) => {
 
 
 app.get('*', (req, res) => {
-    res.send('<a href="/">Oopsie daisy! Nothing to see here. Navigate back to the homepage?</a>');
+    res.send('<a href="/"> Nothing to see here. Navigate back to the homepage?</a>');
 });
 
 
